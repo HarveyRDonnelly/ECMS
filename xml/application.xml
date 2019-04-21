@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!--
+# ===================================================== #
+#	Electrochemical Modelling System (ECMS)				#
+#	Version 1.1.0 | Released 2017/12/28					#
+#	Developed by Harvey Donnelly						#
+#	http://www.donl.io | harvey@donl.io					#
+# ===================================================== #
+-->
+
+<config>
+	<release_info>
+		<data key="ReleaseVersion">1.1.0</data>
+		<data key="ReleaseDate">2017/12/28</data>
+		<data key="DisplayNameFull">Electrochemical Modelling System</data>
+		<data key="DisplayNameShort">ECMS</data>
+		<data key="SystemLanguage">en_GB</data>
+	</release_info>
+	<dg_info>
+		<data key="TempRange">400</data>
+		<data key="ChargeAccuracy">100</data>
+	</dg_info>
+	<dev_info>
+		<data key="DeveloperName">Harvey Donnelly</data>
+		<data key="Website">www.donl.io</data>
+		<data key="ContactEmailAddress">harvey@donl.io</data>
+	</dev_info>
+	<system_info>
+		<data key="ExecutableLocation">/ecms.py</data>
+		<data key="ApplicationXmlLocation">/xml/application.xml</data>
+		<data key="ApplicationLogsLocation">/logs/</data>
+		<data key="EnvironmentConfigLocation">/scripts/sec.py</data>
+		<data key="DataGenerationScriptLocation">/scripts/dgs.py</data>
+	</system_info>
+	<mysql_info>
+		<data key="ServerHostname">localhost</data>
+		<data key="ServerUser">root</data>
+		<data key="ServerPassword"></data>
+	</mysql_info>
+</config>
